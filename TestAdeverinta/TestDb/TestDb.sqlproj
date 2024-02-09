@@ -67,6 +67,12 @@
     <Build Include="dbo\StoredProcedures\spPerson_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spAddress_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spCertificate_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spPerson_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spPerson_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spAddress_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spAddress_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spCertificate_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spCertificate_GetAll.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TestDb.refactorlog" />

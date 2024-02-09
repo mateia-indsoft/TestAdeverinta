@@ -4,5 +4,7 @@
 	@AddressID int,
 	@PersonCNP int
 AS
+begin
 	INSERT INTO dbo.[Certificate](Year, Volume, AddressID, PersonCNP)
-RETURN 0
+	Values(@Year, @VOlume, @AddressID, @PersonCNP)
+end

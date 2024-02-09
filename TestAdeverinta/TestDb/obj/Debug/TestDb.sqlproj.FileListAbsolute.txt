@@ -2,9 +2,5 @@ D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\bin\Debug\TestDb.dac
 D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\bin\Debug\TestDb.dll
 D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\bin\Debug\TestDb.pdb
 D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\TestDb.sqlproj.AssemblyReference.cache
-D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\Model.xml
-D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\refactor.xml
-D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\postdeploy.sql
-D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\predeploy.sql
 D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\TestDb.dll
 D:\mateia\Desktop\Test\TestAdeverinta\TestAdeverinta\TestDb\obj\Debug\TestDb.pdb
