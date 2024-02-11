@@ -2,7 +2,8 @@
 
 public class PersonModel
 {
-    public int CNP { get; set; }
+    public int Id { get; set; }
+    public long CNP { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
 }

@@ -1,7 +1,8 @@
 ﻿CREATE TABLE [dbo].[PersonTable]
 (
-	[CNP] INT NOT NULL PRIMARY KEY, 
+    [Id] INT PRIMARY KEY IDENTITY, 
+	[CNP] BIGINT NOT NULL UNIQUE, 
     [FirstName] NVARCHAR(50) NOT NULL, 
-    [LastName] NVARCHAR(50) NOT NULL, 
+    [LastName] NVARCHAR(50) NOT NULL
     
 )

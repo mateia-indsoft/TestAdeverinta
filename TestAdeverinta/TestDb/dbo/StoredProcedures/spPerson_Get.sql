@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spPerson_Get]
-	@CNP int
+	@CNP BIGINT
 AS
 begin
 	select *

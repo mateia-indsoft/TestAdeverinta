@@ -1,5 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spPerson_Insert]
-	@CNP int,
+	@ID INT,
+	@CNP BIGINT,
 	@FirstName nvarchar(50),
 	@LastName nvarchar(50)
 AS

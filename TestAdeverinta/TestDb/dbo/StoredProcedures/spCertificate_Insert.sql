@@ -2,7 +2,7 @@
 	@Year nchar,
 	@Volume int,
 	@AddressID int,
-	@PersonCNP int
+	@PersonCNP BIGINT
 AS
 begin
 	INSERT INTO dbo.[Certificate](Year, Volume, AddressID, PersonCNP)

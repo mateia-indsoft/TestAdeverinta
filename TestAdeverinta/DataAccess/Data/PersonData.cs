@@ -5,7 +5,7 @@ namespace DataAccess.Data;
 
 
 
-public class PersonData
+public class PersonData : IPersonData
 {
     private readonly ISqlDataAccess db;
 
@@ -14,18 +14,18 @@ public class PersonData
         this.db = db;
     }
 
-    public async Task<IEnumerable<PersonModel>> GetPersons() 
+    public async Task<IEnumerable<PersonModel>> GetPersons()
     {
         return await db.LoadData<PersonModel, dynamic>("dbo.spPerson_GetAll", new { });
     }
 
-    public async Task<PersonModel?> GetPerson(int id)
+    public async Task<PersonModel?> GetPerson(long cnp)
     {
-        return (await db.LoadData<PersonModel, dynamic>("dbo.spPerson_Get", new {Id = id})).FirstOrDefault();
+        return (await db.LoadData<PersonModel, dynamic>("dbo.spPerson_Get", new { CNP = cnp })).FirstOrDefault();
     }
 
-    public Task InsertUser(PersonModel person)
+    public Task InsertPerson(PersonModel person)
     {
-        return db.SaveData("dbo.spPerson_Insert", new { person.CNP, person.FirstName, person.LastName});
+        return db.SaveData("dbo.spPerson_Insert", new {person.Id, person.CNP, person.FirstName, person.LastName });
     }
 }
